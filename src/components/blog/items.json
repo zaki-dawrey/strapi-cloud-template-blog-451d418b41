@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_items",
+  "info": {
+    "displayName": "items",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

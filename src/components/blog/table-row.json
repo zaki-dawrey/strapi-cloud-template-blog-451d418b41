@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blog_table_rows",
+  "info": {
+    "displayName": "table-row",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "col_1": {
+      "type": "string"
+    },
+    "col_2": {
+      "type": "string"
+    },
+    "col_3": {
+      "type": "string"
+    },
+    "col_4": {
+      "type": "string"
+    },
+    "col_5": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

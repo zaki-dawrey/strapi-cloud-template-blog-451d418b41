@@ -47,8 +47,6 @@
       "type": "dynamiczone",
       "components": [
         "blog.rich-text",
-        "blog.image-block",
-        "blog.table",
         "blog.faq",
         "blog.cta"
       ]

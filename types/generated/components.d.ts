@@ -60,19 +60,6 @@ export interface BlogRichText extends Struct.ComponentSchema {
   };
 }
 
-export interface BlogTable extends Struct.ComponentSchema {
-  collectionName: 'components_blog_tables';
-  info: {
-    displayName: 'table';
-    icon: 'apps';
-  };
-  attributes: {
-    columns: Schema.Attribute.JSON;
-    rows: Schema.Attribute.Component<'blog.table-row', true>;
-    title: Schema.Attribute.String;
-  };
-}
-
 export interface BlogTableRow extends Struct.ComponentSchema {
   collectionName: 'components_blog_table_rows';
   info: {
@@ -158,7 +145,6 @@ declare module '@strapi/strapi' {
       'blog.image-block': BlogImageBlock;
       'blog.items': BlogItems;
       'blog.rich-text': BlogRichText;
-      'blog.table': BlogTable;
       'blog.table-row': BlogTableRow;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
